@@ -21,7 +21,9 @@ O exercício proposto pela Attornatus,  simula uma interface de gerenciamento de
 ### O que faz?
 #### O programa conta com diversas funções comuns a um sistema de gerenciamento de pessoas:
     • Consultar uma pessoa
+    
     • Listar endereços da pessoa
+    
     • Listar pessoas
 
     
