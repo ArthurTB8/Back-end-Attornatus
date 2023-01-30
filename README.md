@@ -43,8 +43,9 @@ O exercício proposto pela Attornatus,  simula uma interface de gerenciamento de
       
 
 ### Qual o objetivo?
-    • O objetivo pricipal é a comunicação de uma aplicação com o banco de dados e a persistência das informações.
-    • A aplicação usa conceitos de POO, como herança e polimorfismo.
+    • O objetivo pricipal é a comunicação de uma aplicação com o banco de dados e a persistência das informações
+    
+    • A aplicação usa conceitos de POO
    
 <h2 id="Desenvolvedor"> Desenvolvedor</h2>
 <p>
