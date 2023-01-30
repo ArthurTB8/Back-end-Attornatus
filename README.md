@@ -29,16 +29,16 @@ O exercício proposto pela Attornatus,  simula uma interface de gerenciamento de
     
 #### Alem disso:
      
-      • É possível criar uma pessoa; 
+      • É possível criar uma pessoa 
       
-      • É possível editar uma pessoa;
+      • É possível editar uma pessoa
       
-      • É possível criar endereço para pessoa;
+      • É possível criar endereço para pessoa
 
  
-      • Não é possível criar um endereço para uma pessoa inexistente;
+      • Não é possível criar um endereço para uma pessoa inexistente
 
-      • Não é possível criar uma pessoa sem endereço;
+      • Não é possível criar uma pessoa sem endereço
 
       
 
