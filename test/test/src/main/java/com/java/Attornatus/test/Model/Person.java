@@ -19,7 +19,7 @@ import org.hibernate.annotations.DynamicUpdate;
         @Column(name = "birthDate")
         private String birthDate;
 
-        public Person(Long id, String personName, String dataNascimento, Address address) {
+        public Person(Long id, String personName, String birthDate, Address address) {
             this.id = id;
             this.personName = personName;
             this.birthDate = birthDate;

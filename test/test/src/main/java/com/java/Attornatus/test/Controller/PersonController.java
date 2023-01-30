@@ -16,12 +16,12 @@ import java.util.Optional;
 public class PersonController {
 
         @Autowired
-        private PersonService pessoaService;
+        private PersonService personService;
 
         @GetMapping
         @RequestMapping("/people")
         public ResponseEntity<List<Person>> searchPeople() {
-            return ResponseEntity.ok(pessoaService.searchPeople());
+            return ResponseEntity.ok(personService.searchPeople());
         }
 
         @GetMapping("/people/{id}")
@@ -32,7 +32,7 @@ public class PersonController {
             if (person.isPresent()) {
                 return ResponseEntity.ok(person.get());
             }
-            return ResponseEntity.ok().body("Id do cliente não encontrado");
+            return ResponseEntity.ok().body("Id não encontrado");
 
         }
 
@@ -44,8 +44,8 @@ public class PersonController {
         }
 
         @PutMapping("/changeperson/{id}")
-        public ResponseEntity<Person> alteraPessoa(@RequestBody Person person) {
-            return ResponseEntity.ok(pessoaService.changePerson(person));
+        public ResponseEntity<Person> changePerson(@RequestBody Person person) {
+            return ResponseEntity.ok(PersonService.changePerson(person));
         }
 
     }

@@ -18,15 +18,15 @@ public class Address {
     @Column(name = "city")
     private String city;
 
-    @Column(name = "principal")
-    private boolean principal;
+    @Column(name = "main")
+    private boolean main;
 
-    public Address(String street, int zipCode, int number, String city, boolean principal) {
+    public Address(String street, int zipCode, int number, String city, boolean main) {
         this.street = street;
         this.zipCode = zipCode;
         this.number = number;
         this.city = city;
-        this.principal = principal;
+        this.main = main;
     }
 
     public Address() {
@@ -63,12 +63,12 @@ public class Address {
         this.city = city;
     }
 
-    public boolean isPrincipal() {
-        return principal;
+    public boolean isMain() {
+        return main;
     }
 
-    public void setPrincipal(boolean principal) {
-        this.principal = principal;
+    public void setMain(boolean main) {
+        this.main = main;
     }
 
 

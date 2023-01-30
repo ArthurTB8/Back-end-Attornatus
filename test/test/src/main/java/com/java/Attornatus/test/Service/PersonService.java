@@ -15,6 +15,8 @@ import java.util.Optional;
 @Service
 public class PersonService {
 
+    static String msn = "Erro tente novamente";
+
     @Autowired
     private static PersonRepository ps;
 
@@ -23,7 +25,7 @@ public class PersonService {
         try {
             return ps.findAll();
         } catch (Exception e) {
-            throw new RuntimeException(e.getMessage() + "Erro ao tentar buscar os clientes");
+            throw new RuntimeException(e.getMessage() + msn);
         }
     }
 
@@ -32,7 +34,7 @@ public class PersonService {
         try {
             return ps.findById(id);
         } catch (Exception e) {
-            throw new RuntimeException(e.getMessage() + "Erro ao tentar buscar um cliente por id");
+            throw new RuntimeException(e.getMessage() + msn);
         }
     }
 
@@ -41,16 +43,16 @@ public class PersonService {
         try {
             return ps.save(person);
         } catch (Exception e) {
-            throw new RuntimeException(e.getMessage() + "Erro ao tentar inserir um cliente PF");
+            throw new RuntimeException(e.getMessage() + msn);
         }
     }
 
     @PutMapping
-    public Person changePerson(Person person) {
+    public static Person changePerson(Person person) {
         try {
             return ps.save(person);
         } catch (Exception e) {
-            throw new RuntimeException(e.getMessage() + "Erro ao tentar alterar um cliente PF");
+            throw new RuntimeException(e.getMessage() + msn);
         }
     }
 }
