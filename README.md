@@ -1,7 +1,7 @@
 # Exercicio-Sistema-De-Multas
 
 <p align="center">
-    <img alt="Badge indicando que o projeto foi criado em janeiro de 2023" src="https://img.shields.io/badge/Data%20de%20cria%C3%A7%C3%A3o-Dezembro%2F2022-blue">
+    <img alt="Badge indicando que o projeto foi criado em janeiro de 2023" src="https://img.shields.io/badge/Data%20de%20cria%C3%A7%C3%A3o-Janeiro%2F2023-blue">
     <img alt="Badge indicando que o status do projeto é 'Finalizado'" src="https://img.shields.io/badge/Status-Finalizado-green">
 </p>
 
