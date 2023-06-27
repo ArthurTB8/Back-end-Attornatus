@@ -14,7 +14,7 @@
 <h2 id="Back-end-Attornatus"> : Avaliação Desenvolvedor Back-end Attornatus
 </h2>
 
-O exercício proposto pela Attornatus,  simula uma interface de gerenciamento de pessoas, sem interface gráfica definida e rodando através do terminal do sistema operacional. O programa está conectado a um banco de dados (H2) local, para realização da persistência dos dados.<br>
+Simula uma interface de gerenciamento de pessoas, sem interface gráfica definida e rodando através do terminal do sistema operacional. O programa está conectado a um banco de dados (H2) local, para realização da persistência dos dados.<br>
 
 <h2 id="descricao">:pencil2: Descrição</h2>
 
